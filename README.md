@@ -3,7 +3,7 @@
 
 *designed for Tarik "tarik" Celik*
 
-Using BS4, PIL, TKinter, and the requests libraries in Python, this widget will scrape current match data from the desired bracket at VLR.gg and display it in a compact format.
+Using BS4, Pillow, TKinter, and the requests libraries in Python, this widget will scrape current match data from the desired bracket at VLR.gg and display it in a compact format.
 
 # Configuration
 The widget can take a few parameters using a separate `config.txt` file.
@@ -26,3 +26,8 @@ Evil Geniuses
 will grab the bracket for the VCT NA Open Qualifier #2 at 10 minute intervals and will watch for ongoing matches from the four teams listed.
 
 Note that the team names need to be **EXACTLY** copied as shown on the bracket being grabbed.
+
+# Building
+Instead of using the release executable file, you can run this yourself on your own Python3 environment. Requires BS4, requests, and Pillow.
+
+The entire widget is contained in the single Python file and still uses a `config.txt`.
